@@ -108,6 +108,9 @@
 .contactSection, .aboutSection{
     background-color: wheat;
 }
+.contactLinksSection{
+    background-color:#b33939;
+}
 
 .contactButton{
     color: #282828;
@@ -119,6 +122,66 @@
 }
 
 .contactButton:hover{
+    text-decoration: none;
+    color:#b33939;
+    background-color: #282828
+}
+
+.copyrightSection{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
+}
+
+.git{
+    color: #282828;
+    font-size: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+.git:hover{
+    text-decoration: none;
+    color:#b33939;
+    background-color: #282828
+}
+
+.resume{
+    color: #282828;
+    font-size: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    
+}
+
+.resume:hover{
+    text-decoration: none;
+    color:#b33939;
+    background-color: #282828
+}
+
+.linkedIn{
+    color: #282828;
+    font-size: 50px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+
+}
+
+.linkedIn:hover{
     text-decoration: none;
     color:#b33939;
     background-color: #282828
